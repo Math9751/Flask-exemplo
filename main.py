@@ -2,6 +2,7 @@ from flask import Flask, make_response, jsonify, request
 from bd import Albuns
 
 
+
 app = Flask(__name__)
 app.config['JSON_SORT_KEYS'] = False 
 
