@@ -9,9 +9,9 @@ CREATE TABLE albuns (
 );
 
 SET character_set_client = utf8;
-SET character_set_conection = utf8;
+SET character_set_connection = utf8;
 SET character_set_results = utf8;
-SET collation_conection = utf8;
+SET collation_connection = utf8_general_ci;
 
 INSERT INTO albuns (album, artista, ano) VALUES ('And Justice for All', 'Metallica', 1988);
 INSERT INTO albuns (album, artista, ano) VALUES ('Spreading the Disease', 'Anthrax', 1985);
